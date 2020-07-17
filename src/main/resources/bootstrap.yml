@@ -10,4 +10,4 @@ spring:
         max-attempts: 20
         max-interval: 15000
         initial-interval: 10000
-      profile: dev
+      profile: prod

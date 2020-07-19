@@ -14,6 +14,16 @@ The bootstrap context uses a different convention for locating external configur
 
 - `spring.application.name`
 
+- `spring.cloud.config`
+
+|property|content|
+|--------|-------|
+|uri||
+|profile||
+|label||
+|fail-fast||
+|retry||
+
 ## Demo
 
 ## Features

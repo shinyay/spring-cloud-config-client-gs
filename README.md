@@ -12,6 +12,8 @@ The bootstrap context uses a different convention for locating external configur
 
 ### bootstrap.yml
 
+- `spring.application.name`
+
 ## Demo
 
 ## Features

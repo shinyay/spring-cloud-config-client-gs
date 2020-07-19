@@ -7,6 +7,11 @@
 - spring-cloud-starter-config
 - spring-boot-starter-web
 
+### Bootstrap Application Context
+The bootstrap context uses a different convention for locating external configuration than the main application context, so instead of `application.yml` you use `bootstrap.yml`
+
+### bootstrap.yml
+
 ## Demo
 
 ## Features

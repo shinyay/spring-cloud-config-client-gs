@@ -9,4 +9,7 @@ class ConfigClient(@Value(value = "\${config.repo}") val repo: String) {
 
     @GetMapping("/config/test")
     fun test() = "Remote Repository info is $repo"
+
+    @GetMapping("/myapp")
+    fun myapp() = "Using Repository: $repo"
 }
